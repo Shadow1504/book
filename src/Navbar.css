@@ -1,0 +1,72 @@
+.header
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .cart h3
+{
+     
+     padding: 5px;
+     text-align: center;
+     width: 180px;
+     border-radius: 5px;
+     margin-top: 35px;
+     color: dimgray;
+}
+.header .search_bar
+{ 
+    margin: auto;
+}
+.header .search_bar input
+{
+    width:250px;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    background-color: gainsboro;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+}
+.header .logo
+{
+    margin: auto;
+}
+.header .logo h1
+{
+    font-size: 42px;
+    font-weight: lighter;
+    color: dimgray;
+}
+.header .logo span
+{
+    color: crimson;
+    font-size: 42px;
+    font-weight: lighter;
+}
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    background-color: orangered;
+}
+.navbar .nav_links ul 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    padding-top: 20px;
+}
+.navbar .nav_links ul li a
+{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}

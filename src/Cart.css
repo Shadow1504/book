@@ -1,0 +1,99 @@
+    .card-content1
+            {
+                width: fit-content;
+                height: fit-content;
+                padding: 20px;
+                margin-bottom: 20px;
+                margin: auto;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+               
+            }
+            .card-content1 .title{
+                padding: 15px;
+            }
+            .card-flex1
+            {
+                justify-content: center;
+                margin: auto;
+                width: 300px;
+                height:100% ;
+                gap:15px;
+            }
+            .c2
+            {
+                display: flex;
+                width: 500px;
+                height: 200px;
+                border-radius: 5px;
+                padding: 20px;
+                text-align: center;
+                background-color: #fff;
+                box-shadow: 0 0 4px gray;
+                justify-content: space-evenly;
+            }
+            .c2 .description
+            {
+                align-items: center;
+                text-align: center;
+                padding: 10px;
+            }
+            .c2 img
+            {
+                width: 40%;
+                height: 100%;
+                object-fit: contain;
+                border: 1px solid rgb(207, 204, 204);
+            }
+            .c2 h5
+            {
+                font-size: 16px;
+            }
+            .c2 h2
+            {
+                font-weight: lighter;
+                font-size: 18px;
+            }
+            .c2 h4{
+                padding: 10px;
+            }
+            .c2 button
+            {
+                width: 100px;
+                height: 35px;
+                border: none;
+                background-color: #f3f3f3;
+                color: black;
+                border-radius:5px ;
+                cursor: pointer;
+            }
+            .c2 button:hover
+            {
+                background-color: crimson;
+                color: white;
+            }
+            .c2 .quan 
+            {
+                display: flex;
+                background-color: #ffffff;
+                height: 28px;
+                width: 25px;
+                padding: 5px;
+                align-items: center;
+                justify-content: center;
+                margin-top:5px;
+                margin: auto;
+            }
+            .c2 .quan button
+            {
+                width: fit-content;
+                height: 32px;
+                padding: 10px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .c2 .quan button:hover
+            {
+                background-color: orange;
+            }

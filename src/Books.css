@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.add
+{
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.container
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.card
+{
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.card img
+{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    
+}
+.card h3
+{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.card h4
+{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: black;
+    font-weight: lighter;
+}
+.btn
+{
+    display: inline-block;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin: 5px 0;
+    margin-top: auto;
+    align-self: center;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background: transparent;
+    color:green
+}

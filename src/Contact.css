@@ -1,0 +1,43 @@
+.box {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .address
+  {
+    background-color: darkgray;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+  }
+  .Sub-heading {
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }

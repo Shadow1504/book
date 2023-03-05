@@ -1,0 +1,95 @@
+.banner
+{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url(book_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3), url(book_bg.jpg) ); */
+}
+.banner .banner-content
+{
+    display: inline-block;
+    justify-content: left;
+    text-align: left;
+    padding: 30px;
+    color: white;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.banner-content h2
+{
+    color:black;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.banner-content h1
+{
+    color:orangered;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.banner-content p
+{
+    color:black;
+    font-size: 19px;
+    line-height: 25px;
+}
+.banner-content button
+{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+    height: 37px;
+    text-align: center;
+    border: none;
+}
+.tokens
+{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    background-color: #f3f3f3;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.token-content
+{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}    
+.token-content .icon
+{
+    padding: 20px 10px 20px 10px;
+    font-size: 48px;
+    margin: auto 0 auto 0;
+    font-weight: lighter;
+    color: gray;
+}
+.token-content .text
+{
+    text-align: center;
+    padding: 2px;
+    line-height: 25px;
+}
+.token-content .text h3
+{
+    text-transform: uppercase;
+}
+.token-content .text h4{
+    font-weight: lighter;
+    color: crimson;
+    font-size: 17px;
+    text-transform: capitalize;
+}
